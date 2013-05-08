@@ -28,20 +28,15 @@ Supports Thumbs: true
 }
 
 .theme-default .nivo-controlNav {
-	text-align: right;
-        position:absolute;
-        right:0;
-        top:365px;
-        z-index:1000;
-	/*padding: 20px 0;*/
+	text-align: center;
+	padding: 20px 0;
 }
 .theme-default .nivo-controlNav a {
 	display:inline-block;
 	width:22px;
 	height:22px;
 	background:url(bullets.png) no-repeat;
-	/*text-indent:-9999px;*/
-        /*text-indent:9999px;*/
+	text-indent:-9999px;
 	border:0;
 	margin: 0 2px;
 }
@@ -61,7 +56,6 @@ Supports Thumbs: true
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
-    top:80%;
 }
 .theme-default:hover .nivo-directionNav a { opacity: 1; }
 .theme-default a.nivo-nextNav {
@@ -96,11 +90,4 @@ Supports Thumbs: true
 	display: block;
 	width: 120px;
 	height: auto;
-}
-
-.slider-wrapper {
-    position:relative;
-}
-select.distance {
-    
 }
